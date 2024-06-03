@@ -22,12 +22,12 @@ nav .navbar{
     background: #023246;
     margin: auto;
 }
-nav .navbar .logo a{
-    color: #f6f6f6;
-    font-size: 27px;
-    font-weight: 600;
-    text-decoration: none;
+
+.logo-image{
+    height: 50px; /* Adjusted height */
+    width: auto; 
 }
+
 nav .navbar .menu{
     display: flex;
 }
@@ -41,44 +41,35 @@ nav .navbar .menu{
     font-weight: 500;
     text-decoration: none;
 }
-section{
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    color: #023246;
-    font-size: 70px;
+
+.navbar .menu li a:hover{
+    color: aqua;
 }
-#Home{
-    background: #f6f6f6;
+
+nav .navbar .login-button{
+    color: #f6f6f6;
+    background: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
-#About{
-    background: #f6f6f6;
+nav .navbar .login-button:hover{
+    background-color: #287094;
 }
-#Resources{
-    background: #f6f6f6;
-}
-#Contact{
-    background: #f6f6f6;
-}
-#Feedback{
-    background: #f6f6f6;
-}
-#FAQs{
-    background: #f6f6f6;
-}
+
 .button a{
     position: fixed;
     bottom: 20px;
     right: 20px;
     color: #f6f6f6;
-    background: #023246;
-    padding: 7px 12px;;
+    background-color: black;
+    padding: 7px 12px;
     font-size: 18px;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.15);
 }
-li a:hover{
+.button a:hover{
     background-color: #287094;
 }
