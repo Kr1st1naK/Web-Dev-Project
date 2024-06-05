@@ -1,6 +1,3 @@
-
-
-
 class Navbar extends HTMLElement {
     connectedCallback() {
         this.loadNavbar();
