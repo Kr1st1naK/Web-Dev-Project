@@ -1,0 +1,298 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2ef;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.recents {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.recents span {
+    font-weight: bold;
+    display: block;
+    color: #005582;
+    margin-bottom: 1rem;
+}
+
+.recents p {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.recents button{
+    width: 100%;
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 10px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+}
+.recents button span{
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+
+.recents button:hover {
+    outline: 0;
+   }
+
+.recents p:hover {
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+
+.profile-card, .post-card {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+
+}
+
+
+.profile-card {
+    width: 200px;
+    text-align: center;
+    height: 30rem;
+    margin-bottom: 2rem;
+}
+
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.profile-title {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+.profile-view{
+    cursor: pointer;
+    color: #0073b1;
+}
+
+.separator{
+   border: 1px solid black;
+   opacity: 50%;
+   margin-top:4rem;
+}
+
+.connections{
+    text-align: start;
+    margin-top: 2rem;
+    opacity: 70%;
+}
+.saved-items{
+    text-align: start;
+    margin-top: 2rem;
+    opacity: 70%;
+}
+
+.connection-stats{
+    display: flex;
+    justify-content: space-between;
+    grid-row: 50px;
+}
+
+.connection-number{
+    color: blue;
+}
+
+.all-posts{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.post-card {
+    width: 500px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-header .profile-pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-title {
+    color: #666;
+    font-size: 14px;
+}
+
+.post-content {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.content-text {
+    max-height: 4.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.read-more {
+    color: #0073b1;
+    cursor: pointer;
+    display: none;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #0073b1;
+}
+
+.footer-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-item:hover {
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+    transform: scale(1.5);
+}
+
+.feed-card {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width:200px;
+    height: 50rem;
+
+}
+
+.feed-pic {
+    margin-top: 2rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.feed-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.feed-text p {
+    font-weight: bold;
+    margin: 0;
+}
+
+.feed-text span {
+    color: #666;
+    font-size: 14px;
+}
+
+.feed-text button {
+    align-self: flex-start;
+    padding: 5px 10px;
+    background-color: #0073b1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feed-text button:hover {
+    background-color: #005582;
+}
+
+@media screen and (max-width:750px)  {
+    .profile-card{
+        display: none;
+    }
+    .recents{
+        display: none;
+    }
+    .feed-card{
+        display: none;
+    }
+    
+}
