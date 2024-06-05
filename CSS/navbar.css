@@ -73,3 +73,34 @@ nav .navbar .login-button:hover{
 .button a:hover{
     background-color: #287094;
 }
+.menuBar{
+    display: none;
+    background: none;
+    border: none;
+    color: #f6f6f6;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px)  {
+ nav .navbar .menu{
+    position: absolute;   
+    flex-direction: column;
+    margin-left:auto;
+    left: 0;
+    margin-top:200px;
+    width: 100%;
+    gap: 20px;
+    box-shadow: black;
+    border-radius: 5%;
+    background-color: #023246;
+ }
+ nav .navbar .login-button{
+   display: none;
+ }
+
+ nav .navbar .menuBar{
+    display: block;
+ }
+
+}

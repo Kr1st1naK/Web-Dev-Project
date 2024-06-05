@@ -1,3 +1,6 @@
+
+
+
 class Navbar extends HTMLElement {
     connectedCallback() {
         this.loadNavbar();
@@ -14,3 +17,5 @@ class Navbar extends HTMLElement {
 }
 
 customElements.define('custom-navbar', Navbar);
+
+
