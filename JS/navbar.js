@@ -11,8 +11,15 @@ class Navbar extends HTMLElement {
             })
             .catch(error => console.error('Error fetching navbar:', error));
     }
-}
-
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+        const menuBar = document.getElementById('menuBar');
+        const menu = document.getElementById('menu');
+    
+        menuBar.addEventListener('click', () => {
+            console.log("clicked")
+            menu.classList.toggle('active');
+        });
+    });
+    
 customElements.define('custom-navbar', Navbar);
-
-
