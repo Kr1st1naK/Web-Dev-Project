@@ -8,7 +8,27 @@
     <title>Home</title>
 </head>
 <body>
-    <custom-navbar></custom-navbar>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../assets/logo.png" alt="KonnectMe Logo">
+        </div>
+        <ul class="nav_links">
+            <li><i class="fas fa-home"></i><a href="#home">Home</a></li>
+		    <li><i class="fas fa-info"></i><a href="#about">About</a></li>
+		    <li><i class="fas fa-envelope"></i><a href="#contact">Contact</a></li>
+		    <li><i class="fas fa-question-circle"></i><a href="#faqs">FAQs</a></li>
+            <li><i class="fas fa-comments"></i><a href="#messaging">Messaging</a></li>
+            <li><i class="fas fa-bell"></i><a href="#notifications">Notifications</a></li>
+            <li><i class="fas fa-user"></i><a href="#me">My Profile</a></li>
+            <li><a href="#premium">Try Premium</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search...">
+            <button onclick="performSearch()">Search</button>
+        </div>
+        <div class="menuBar">☰</div>
+    </nav>
+
     <div class="container">
         <div class="left-content">
         <div class="profile-card">
