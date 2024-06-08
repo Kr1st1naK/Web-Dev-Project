@@ -10,8 +10,8 @@
     background:linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)), url(../assets/mentee.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 32px;
+    background-size:cover;
+    padding-top: 50px;
 }
 @keyframes fade-skide-down{
     0%{
