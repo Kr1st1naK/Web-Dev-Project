@@ -98,6 +98,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 32px;
+    animation: fade-slide-down 1s ease-in-out;
 
 }
 
