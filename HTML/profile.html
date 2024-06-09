@@ -5,9 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="../CSS/profile.css">
+    <link rel="stylesheet" href="../CSS/suggestions.css">
     <title>Profile</title>
 </head>
 <body>
-    
+    <main>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../assets/logo.png" alt="KonnectMe Logo">
+            </div>
+            <ul class="nav_links">
+                <li><i class="fas fa-home"></i><a href="../HTML/home.html">Home</a></li>
+                <li><i class="fas fa-info"></i><a href="../HTML/about.html">About</a></li>
+                <li><i class="fas fa-envelope"></i><a href="../HTML/about.html">Contact</a></li>
+                <li><i class="fas fa-question-circle"></i><a href="../HTML/faq.html">FAQs</a></li>
+                <li><i class="fas fa-comments"></i><a href="#messaging">Messaging</a></li>
+                <li><i class="fas fa-bell"></i><a href="#notifications">Notifications</a></li>
+                <li><i class="fas fa-user"></i><a href="../HTML/profile.html">My Profile</a></li>
+                <li><a href="#premium">Try Premium</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" class="search__input" placeholder="Type your text">
+                <button onclick="performSearch()" class="search__button">
+                    <svg class="search__icon" aria-hidden="true" viewBox="0 0 24 24">
+                        <g>
+                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <div class="menuBar">☰</div>
+        </nav>
+        <div>
+        <div class="profile-container">
+            <img class="profile-background" src="../assets/connection.jpg" alt="">
+            <img class="profile-picture" src="../assets/person1.jpg" alt="">
+            <div class="profile-info">
+                <h1>John Doe</h1>
+                <h2>Software Engineer mentor</h2>
+                <p>Chicago, USA </p>
+                <p>Software Engineer | Mentor | Lecturer</p>
+                <ul class="contact-info">
+                    <li><a href="#"><i class="fas fa-envelope"></i>johndoe@gmail.com</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> My profile </a></li>
+                </ul>
+                <span>400 connections</span>
+                <button class="button">
+                    Open to
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="experience-container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Mentor</h3>
+                <p class="experience-details">MentorMe, Chicago | January 2010 - Present</p>
+                <p>As a mentor at Company Name, I have guided and supported junior team members, providing them with valuable insights, advice, and feedback to help them grow in their roles. My role involves developing personalized learning plans, conducting regular check-ins, and fostering a collaborative and supportive environment for learning and development.</p>
+            </div>
+            <!-- Add more experience items as needed -->
+        </div>
+        
+        <div class="education-container">
+            <h2>Education</h2>
+            <div class="education-info">
+                <img class="education-picture" src="../assets/strath.png" alt="">
+                <div class="education-details">
+                    <p class="institution">Strathmore University</p>
+                    <p class="degree">Masters in Computer Science</p>
+                    <p class="duration">June 2005 - June 2007</p>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+        <div class="feed-card">
+            <img class="feed-pic" src="../assets/mentor.png" alt="Mentor">
+            <div class="feed-text">
+                <p>Mentor me</p>
+                <span>Company for mentors</span>
+                <button>Follow+</button>
+            </div>
+
+            <img class="feed-pic" src="../assets/mentee.jpg" alt="Mentor">
+            <div class="feed-text">
+                <p>Mentee me</p>
+                <span>Company for mentees</span>
+                <button>Follow+</button>
+            </div>
+            <img class="feed-pic" src="../assets/google.png" alt="Mentor">
+            <div class="feed-text">
+                <p>Google</p>
+                <span>Trainers for mentors</span>
+                <button>Follow+</button>
+            </div>
+            <img class="feed-pic" src="../assets/strath.png" alt="Mentor">
+            <div class="feed-text">
+                <p>Strathmore University</p>
+                <span>Maisa program</span>
+                <button>Follow+</button>
+            </div>
+        </div>
+    </main>
 </body>
+<script src="../JS/script.js"></script>
 </html>
