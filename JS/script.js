@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 function performSearch() {
-    const query = document.getElementById('search').value;
+    const query = document.querySelector('.search__input').value;
     if (query) {
         alert(`Searching for: ${query}`);
     } else {

@@ -2,9 +2,6 @@ body, html {
     background-color: #f0f0f5;
     height: 100%;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .signin{
