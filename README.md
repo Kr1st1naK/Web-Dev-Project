@@ -12,3 +12,4 @@ We have curated a library of resources including articles, case studies, webinar
 
 ## Screenshots  
 
+![Screenshot 2024-06-10 at 10 59 11](https://github.com/Kr1st1naK/Web-Dev-Project/assets/158170584/80faa505-1cc7-41e6-ae10-0056cd01e149)
