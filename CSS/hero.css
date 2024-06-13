@@ -424,8 +424,19 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  margin-top: 2rem;
+  top: 300px;
+  z-index: 1;
 }
+
+.spline-background {
+  margin-top: -200px;
+  margin-left: -100px;
+  width: 112%;      
+  max-width: 200vw; 
+  height: auto;     
+  overflow-x: hidden; 
+}
+
 
 .footer:after{
 position:absolute;
@@ -448,7 +459,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
   font-size: 1.5rem;
   font-weight: 900;
   margin-bottom: 1rem;
-  color: #f5f5f5;
+  color: black;
 }
 
 .footer p {
@@ -491,6 +502,8 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
   clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 100%);
   z-index: -1;
 }
+
+
 
 @media (max-width: 900px) {
   .testimonials__grid {
