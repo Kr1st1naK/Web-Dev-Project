@@ -10,16 +10,13 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="../assets/logo.png" alt="KonnectMe Logo">
+            <a href="./hero.html"><img src="../assets/logo.png" alt="KonnectMe Logo"></a>    
         </div>
         <ul class="nav_links">
-            <li><i class="fas fa-home"></i><a href="../HTML/home.html">Home</a></li>
-		    <li><i class="fas fa-info"></i><a href="../HTML/about.html">About</a></li>
-		    <li><i class="fas fa-envelope"></i><a href="../HTML/about.html">Contact</a></li>
-		    <li><i class="fas fa-question-circle"></i><a href="../HTML/faq.html">FAQs</a></li>
-            <li><i class="fas fa-comments"></i><a href="#messaging">Messaging</a></li>
-            <li><i class="fas fa-bell"></i><a href="#notifications">Notifications</a></li>
-            <li><i class="fas fa-user"></i><a href="../HTML/profile.html">My Profile</a></li>
+            <li><i class="fas fa-home"></i><a href="./home.html">Home</a></li>
+		    <li><i class="fas fa-info"></i><a href="./about.html">About</a></li>
+		    <li><i class="fas fa-question-circle"></i><a href="./faq.html">FAQs</a></li>
+            <li><i class="fas fa-user"></i><a href="./profile.html">My Profile</a></li>
             <li><a href="#premium">Try Premium</a></li>
         </ul>
         <div class="search">
@@ -42,7 +39,7 @@
             <div class="profile-info">
                 <span class="profile-name">John Doe</span>
                 <span class="profile-title">Senior Mentor at TechCorp</span>
-                <span class="profile-view">View Profile</span>
+                <span class="profile-view"><a href="./profile.html">View Profile</a></span>
             </div>
             <div class="separator"></div>
             <div class="connections">
@@ -73,17 +70,56 @@
         <div class="all-posts">
             <div class="post-card">
                 <div class="post-header">
-                    <img src="../assets/person1.jpg" alt="Profile Picture" class="profile-pic">
+                    <img src="../assets/postperson1.png" alt="Profile Picture" class="profile-pic">
                     <div class="user-info">
                         <span class="user-name">John Doe</span>
-                        <span class="user-title">Senior mentor at TechCorp</span>
+                        <span class="user-title">Senior mentor</span>
                     </div>
                 </div>
                 <div class="post-content" id="post-content">
-                    <p class="content-text">
-                        Excited to share that I`ve just started a new position as Software Engineer at TechCorp! Looking forward to contributing to this amazing team and taking on new challenges. 
-                        
-                    </p>
+                    <details>
+                        <summary>Mentoring is a powerful tool for personal and professional growth. By connecting with experienced mentors, individuals gain invaluable insights, guidance, and support that can shape their careers and lives. </summary>
+                        <p class="content-text">
+                          Whether navigating new challenges or honing existing skills, the mentor-mentee relationship fosters mutual learning and growth.
+                        </p>
+                    </details>
+                    
+                    <span class="read-more" id="read-more">Read more</span>
+                </div>
+                <div>
+                    <img src="../assets/post1.png" alt="">
+                </div>
+                <div class="post-footer">
+                    <span class="footer-item">👍 Like</span>
+                    <span class="footer-item">💬 Comment</span>
+                    <span class="footer-item">
+                        <svg width="20" height="20" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M832 64H192C174.3 64 160 78.3 160 96V928C160 945.7 174.3 960 192 960H832C849.7 960 864 945.7 864 928V96C864 78.3 849.7 64 832 64ZM668 345.9L621.5 312L572 347.4V124H668V345.9Z" fill="blue"/>
+                        </svg>
+                        book
+                    </span>
+                    <span class="footer-item">↪️ Share</span>
+                </div>
+                <div>
+                    Hello
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="post-header">
+                    <img src="../assets/postperson2.png" alt="Profile Picture" class="profile-pic">
+                    <div class="user-info">
+                        <span class="user-name">Alex Maunda</span>
+                        <span class="user-title">Peer mentor</span>
+                    </div>
+                </div>
+                <div class="post-content" id="post-content">
+                    <details>
+                        <summary>Mentorship is more than just guidance; it's a journey of shared growth and development. With a mentor's wisdom and experience, mentees can unlock their full potential, overcome obstacles, and achieve their goals.</summary>
+                        <p class="content-text">
+                            This dynamic relationship enriches both the mentor and mentee, creating a ripple effect of knowledge and success
+                       </p>
+                    </details>
+                    
                     <span class="read-more" id="read-more">Read more</span>
                 </div>
                 <div>
@@ -103,21 +139,23 @@
             </div>
             <div class="post-card">
                 <div class="post-header">
-                    <img src="../assets/person1.jpg" alt="Profile Picture" class="profile-pic">
+                    <img src="../assets/postperson4.png" alt="Profile Picture" class="profile-pic">
                     <div class="user-info">
-                        <span class="user-name">John Doe</span>
-                        <span class="user-title">Senior mentor at TechCorp</span>
+                        <span class="user-name">Kenneth Kaunda</span>
+                        <span class="user-title">Wellness Mentor</span>
                     </div>
                 </div>
                 <div class="post-content" id="post-content">
-                    <p class="content-text">
-                        Excited to share that I`ve just started a new position as Software Engineer at TechCorp! Looking forward to contributing to this amazing team and taking on new challenges. 
-                        
-                    </p>
+                    <details>
+                        <summary>A good mentor can be a beacon of inspiration and guidance. Mentorship helps bridge the gap between ambition and achievement, providing the tools and confidence needed to succeed.</summary>
+                        <p class="content-text">
+                            It's about building a supportive network that encourages continuous learning and professional development, fostering an environment where both mentors and mentees thrive.                        
+                        </p>
+                    </details>
                     <span class="read-more" id="read-more">Read more</span>
                 </div>
                 <div>
-                    <img src="../assets/post1.png" alt="">
+                    <img src="../assets/post2.png" alt="">
                 </div>
                 <div class="post-footer">
                     <span class="footer-item">👍 Like</span>
@@ -133,21 +171,24 @@
             </div>
             <div class="post-card">
                 <div class="post-header">
-                    <img src="../assets/person1.jpg" alt="Profile Picture" class="profile-pic">
+                    <img src="../assets/postperson3.png" alt="Profile Picture" class="profile-pic">
                     <div class="user-info">
-                        <span class="user-name">John Doe</span>
-                        <span class="user-title">Senior mentor at TechCorp</span>
+                        <span class="user-name">Koffi Annan</span>
+                        <span class="user-title">Business Growth Mentor</span>
                     </div>
                 </div>
                 <div class="post-content" id="post-content">
-                    <p class="content-text">
-                        Excited to share that I`ve just started a new position as Software Engineer at TechCorp! Looking forward to contributing to this amazing team and taking on new challenges. 
-                        
-                    </p>
+                    <details>
+                        <summary>The value of mentorship lies in its ability to transform lives and careers. Mentors offer more than just advice; they provide a roadmap to success, helping mentees overcome challenges and seize opportunities.</summary>
+                        <p class="content-text">
+                            This collaborative partnership fosters a spirit of learning, resilience, and mutual respect, driving both parties toward their fullest potential.
+                       </p>
+                    </details>
+                    
                     <span class="read-more" id="read-more">Read more</span>
                 </div>
                 <div>
-                    <img src="../assets/post1.png" alt="">
+                    <img src="../assets/post3.png" alt="">
                 </div>
                 <div class="post-footer">
                     <span class="footer-item">👍 Like</span>
@@ -163,51 +204,24 @@
             </div>
             <div class="post-card">
                 <div class="post-header">
-                    <img src="../assets/person1.jpg" alt="Profile Picture" class="profile-pic">
+                    <img src="../assets/postperson5.png" alt="Profile Picture" class="profile-pic">
                     <div class="user-info">
-                        <span class="user-name">John Doe</span>
-                        <span class="user-title">Senior mentor at TechCorp</span>
+                        <span class="user-name">John Malawi</span>
+                        <span class="user-title">Professional Development Mentor</span>
                     </div>
                 </div>
                 <div class="post-content" id="post-content">
-                    <p class="content-text">
-                        Excited to share that I`ve just started a new position as Software Engineer at TechCorp! Looking forward to contributing to this amazing team and taking on new challenges. 
-                        
-                    </p>
+                    <details>
+                        <summary>Effective mentorship is the cornerstone of professional advancement. By sharing their experiences and knowledge, mentors help mentees navigate their career paths with greater clarity and purpose.</summary>
+                        <p class="content-text">
+                            This symbiotic relationship not only enhances personal growth but also strengthens the professional community, creating a culture of continuous improvement and support
+                        </p>
+                    </details>
+                    
                     <span class="read-more" id="read-more">Read more</span>
                 </div>
                 <div>
-                    <img src="../assets/post1.png" alt="">
-                </div>
-                <div class="post-footer">
-                    <span class="footer-item">👍 Like</span>
-                    <span class="footer-item">💬 Comment</span>
-                    <span class="footer-item">
-                        <svg width="20" height="20" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M832 64H192C174.3 64 160 78.3 160 96V928C160 945.7 174.3 960 192 960H832C849.7 960 864 945.7 864 928V96C864 78.3 849.7 64 832 64ZM668 345.9L621.5 312L572 347.4V124H668V345.9Z" fill="blue"/>
-                        </svg>
-                        book
-                    </span>
-                    <span class="footer-item">↪️ Share</span>
-                </div>
-            </div>
-            <div class="post-card">
-                <div class="post-header">
-                    <img src="../assets/person1.jpg" alt="Profile Picture" class="profile-pic">
-                    <div class="user-info">
-                        <span class="user-name">John Doe</span>
-                        <span class="user-title">Senior mentor at TechCorp</span>
-                    </div>
-                </div>
-                <div class="post-content" id="post-content">
-                    <p class="content-text">
-                        Excited to share that I`ve just started a new position as Software Engineer at TechCorp! Looking forward to contributing to this amazing team and taking on new challenges. 
-                        
-                    </p>
-                    <span class="read-more" id="read-more">Read more</span>
-                </div>
-                <div>
-                    <img src="../assets/post1.png" alt="">
+                    <img src="../assets/post4.png" alt="">
                 </div>
                 <div class="post-footer">
                     <span class="footer-item">👍 Like</span>
@@ -221,6 +235,41 @@
                     <span class="footer-item">↪️ Share</span>
                 </div>
             </div>  
+            <div class="post-card">
+                <div class="post-header">
+                    <img src="../assets/postperson6.png" alt="Profile Picture" class="profile-pic">
+                    <div class="user-info">
+                        <span class="user-name">Jacob Zuma</span>
+                        <span class="user-title">Leadership Coach</span>
+                    </div>
+                </div>
+                <div class="post-content" id="post-content">
+                    <details>
+                        <summary>
+                            Mentoring is a journey of mutual discovery and empowerment. Through mentorship, individuals can explore new perspectives, gain critical insights, and develop essential skills. 
+                        </summary>
+                        <p class="content-text">
+                            This relationship nurtures a supportive and enriching environment, where both mentor and mentee can grow and achieve their aspirations together.  
+                        </p>
+                    </details>
+                    
+                    <span class="read-more" id="read-more">Read more</span>
+                </div>
+                <div>
+                    <img class="post-image" src="../assets/post5.png" alt="">
+                </div>
+                <div class="post-footer">
+                    <span class="footer-item">👍 Like</span>
+                    <span class="footer-item">💬 Comment</span>
+                    <span class="footer-item">
+                        <svg width="20" height="20" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M832 64H192C174.3 64 160 78.3 160 96V928C160 945.7 174.3 960 192 960H832C849.7 960 864 945.7 864 928V96C864 78.3 849.7 64 832 64ZM668 345.9L621.5 312L572 347.4V124H668V345.9Z" fill="blue"/>
+                        </svg>
+                        book
+                    </span>
+                    <span class="footer-item">↪️ Share</span>
+                </div>
+            </div> 
         </div>
         <div class="feed-card">
             <img class="feed-pic" src="../assets/mentor.png" alt="Mentor">
